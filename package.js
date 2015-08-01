@@ -17,7 +17,7 @@ Package.onUse(function(api) {
 
   api.use([
     'kadira:flow-router',
-    'zimme:active-route@2.2.0'
+    'zimme:active-route@2.3.0'
   ], ['client', 'server']);
 
   api.imply('zimme:active-route', ['client', 'server']);
